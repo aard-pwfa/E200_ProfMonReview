@@ -165,7 +165,8 @@ handles.filename=Filename;
 guidata(hObject, handles);
 
 loadimage(handles);
-
+global data
+display('Global variable "data" set!');
 
 % --- Executes on slider movement.
 function Maxcounts_Callback(hObject, eventdata, handles)

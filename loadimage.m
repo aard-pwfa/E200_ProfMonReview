@@ -1,5 +1,5 @@
 function loadimage(handles)
-	disp('Here');
+	% disp('Here');
 
 	maxval=int32(get(handles.Maxcounts,'Value'));
 	minval=int32(get(handles.Mincounts,'Value'));
